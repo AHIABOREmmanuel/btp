@@ -6,11 +6,11 @@ import { ProjetComponent } from './projet/projet.component';
 import { ContactsComponent } from './contacts/contacts.component';
 
 const routes: Routes = [
-  {path:'Accueil', component:SliderComponent},
-  {path:'', component:AproposComponent},
+  {path:'', component:SliderComponent},
+  {path:'apropos', component:AproposComponent},
   {path:'services', component:ProjetComponent},
   {path:'contacts', component:ContactsComponent},
-  {path:'', component:AproposComponent}
+  {path:'', component:SliderComponent}
 ];
 
 @NgModule({

@@ -1,50 +1,32 @@
-      <!-- HEADER START -->
-      <header class="site-header header-style-3 mobile-sider-drawer-menu">
-        <!-- MAIN BAR START -->
-        <div class="sticky-header main-bar-wraper">
-          <div class="main-bar site-bg-primary">
-            <div class="container">
-              <!-- SITE LOGO -->
-              <div class="logo-header mostion">
-                <a href="index.html">
-                  <img
-                    src="images/logo-light.png"
-                    width="171"
-                    height="49"
-                    alt=""
-                  />
-                </a>
+<header class="site-header header-style-1 twm-nav-transparent mobile-sider-drawer-menu">
+  <div class="sticky-header main-bar-wraper">
+      <div class="main-bar bg-white">
+          <div class="container">
+              <div class="logo-header">
+                  <a routerLink="/">
+                      <img src="images/logo-dark.png" width="171" height="49" alt="Logo The WebMax">
+                  </a>
               </div>
 
+              <!-- MAIN Nav -->
               <div class="header-nav navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                  <li class="active">
-                    <a href="/"
-                      >Accueil<i class="Accueil"></i
-                    ></a>
-                  </li>
-
-                  <li>
-                    <a routerLink="/"
-                      >A propos<i class=""></i
-                    ></a>
-                  </li>
-
-                  <li>
-                    <a href="/"
-                      >Services<i class=""></i
-                    ></a>
-                  </li>
-
-                  <li>
-                    <a routerLink="/"
-                      >Contacts<i class=""></i
-                    ></a>
-                  </li>
-                </ul>
+                  <ul class="nav navbar-nav">
+                      <li routerLinkActive="active">
+                          <a routerLink="/">Accueil<i class="fa fa-home"></i></a>
+                      </li>
+                      <li routerLinkActive="active">
+                          <a routerLink="apropos">À propos<i class="fa fa-info-circle"></i></a>
+                      </li>
+                      <li routerLinkActive="active">
+                          <a routerLink="services">Services<i class="fa fa-cogs"></i></a>
+                      </li>
+                      <li routerLinkActive="active">
+                          <a routerLink="contacts">Contacts<i class="fa fa-envelope"></i></a>
+                      </li>
+                  </ul>
               </div>
-            </div>
           </div>
-        </div>
-      </header>
-      <!-- HEADER END -->
+      </div>
+  </div>
+
+</header>
