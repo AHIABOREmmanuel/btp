@@ -3,12 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AproposComponent } from './apropos/apropos.component';
 import { SliderComponent } from './slider/slider.component';
 import { ProjetComponent } from './projet/projet.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 const routes: Routes = [
   {path:'Accueil', component:SliderComponent},
-  {path:'A propos', component:AproposComponent},
+  {path:'', component:AproposComponent},
   {path:'services', component:ProjetComponent},
-  {path:'contacts', component:AproposComponent},
+  {path:'contacts', component:ContactsComponent},
   {path:'', component:AproposComponent}
 ];
 

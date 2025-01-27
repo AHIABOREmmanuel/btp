@@ -13,6 +13,7 @@ import { ProjetComponent } from './projet/projet.component';
 import { AproposComponent } from './apropos/apropos.component';
 import { SliderComponent } from './slider/slider.component';
 import { NavComponent } from './nav/nav.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { NavComponent } from './nav/nav.component';
     ProjetComponent,
     AproposComponent,
     SliderComponent,
-    NavComponent
+    NavComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
